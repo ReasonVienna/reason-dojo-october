@@ -1,0 +1,20 @@
+@import "normalize.css/normalize.css";
+@import "./variables.scss";
+@import "./mixins.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  /*
+  Makes 1rem = 10px
+  See https://developer.mozilla.org/en-US/docs/Web/CSS/font-size
+  or https://snook.ca/archives/html_and_css/font-size-with-rem
+  */
+  font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}

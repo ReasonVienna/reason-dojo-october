@@ -1,0 +1,35 @@
+# Reason Dojo October
+
+Main theme for today: Building interactive webapps with `ReasonReact.reducerComponents`
+
+## Today we want to learn following topics:
+
+- Build an App entry point with asynchronous state
+- Promise handling
+- Writing bindings to features of The Platform(tm)
+- Deploy and Review the results with Netlify
+
+## Exercise
+
+We want to build a webpage which involves a lot of animation of image related content.
+Since images load asynchronously, it might happen that some images are not loaded before the animation begins.
+We need a component which handles a preloading mechanism to load certain images before the app is being launched.
+
+**We define following React based API:**
+
+```
+// JS syntax!
+<Preloader images={[img1, img2]} render={<div>Hello World</div>} />
+```
+
+**Features:**
+- The Preloader should show a spinner as long as there are images loading
+- After all resources are loaded, the render function should render the given component
+
+**Rules:**
+- NO RESEARCH / USAGE OF EXISTING LIBS ALLOWED
+- Only use ReasonReact and the native JS APIs
+
+
+
+
