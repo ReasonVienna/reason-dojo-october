@@ -18,6 +18,6 @@ module.exports = {
     //   title: "Page not found",
     // }),
     "/": page("index.mdx", { title: "Home" }),
-    "about": page("about.mdx", { title: "About" }),
+    "help": page("help.mdx", { title: "Help" }),
   }
 };
